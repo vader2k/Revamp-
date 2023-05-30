@@ -2,21 +2,21 @@
     padding: 0;
     margin: o;
 }
+html{
+    scroll-behavior: smooth;
+}
 .logo {
     height: 40px;
     margin-right: 10px;
-  }
-  .navbar-nav {
+}
+.navbar-nav {
     margin-left: auto;
-  }
-  .navbar-nav .nav-link {
+}
+.navbar-nav .nav-link {
     margin-right: 15px;
-  }
-  .banner{
-    background-image: url(./freestocks-_3Q3tsJ01nc-unsplash.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+}
+.shift img{
+    width: 100% !important;
 }
 .banner-heading{
     margin-top: 250px;
@@ -39,10 +39,13 @@
    outline: none !important;
 }
 .sub-headings{
-    color: #990000;
+    color: #9900007e;
 }
 .banner-btn{
     outline: none;
+}
+header{
+    background-color: #807c75;
 }
 body{
     background-color: lightgrey;
@@ -143,6 +146,7 @@ span{
     padding: 40px;
 }
 
+
   @media only screen and (max-width:768px){
     #options{
         display: grid;
@@ -207,14 +211,11 @@ span{
       margin: 0 !important;
       padding: 0 !important;
     }
-    .banner{
-        background-image: url(./freestocks-_3Q3tsJ01nc-unsplash.jpg);
-        background-size: cover !important;
-        background-position: center;
-    }
+
     .why-us{
         background-image: url(./bruno-kelzer-LvySG1hvuzI-unsplash.jpg);
         background-size: cover;
         background-position: center;
     }
+
   }
