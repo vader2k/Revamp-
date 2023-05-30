@@ -207,6 +207,8 @@ span{
     }
     .banner{
         background-image: url(./freestocks-_3Q3tsJ01nc-unsplash.jpg);
+        background-size: cover !important;
+        background-position: center top !important;
     }
     .why-us{
         background-image: url(./bruno-kelzer-LvySG1hvuzI-unsplash.jpg);
