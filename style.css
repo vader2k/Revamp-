@@ -209,7 +209,7 @@ span{
     }
     .banner{
         background-image: url(./freestocks-_3Q3tsJ01nc-unsplash.jpg);
-        background-size: cover !important;
+        background-size: contain !important;
         background-position: center top !important;
     }
     .why-us{
