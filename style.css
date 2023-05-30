@@ -214,8 +214,7 @@ span{
     }
     .why-us{
         background-image: url(./bruno-kelzer-LvySG1hvuzI-unsplash.jpg);
-        background-attachment: fixed;
-        background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
   }
