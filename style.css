@@ -209,12 +209,13 @@ span{
     }
     .banner{
         background-image: url(./freestocks-_3Q3tsJ01nc-unsplash.jpg);
-        background-size: contain !important;
-        background-position: center top !important;
+        background-size: cover !important;
+        background-position: center;
     }
     .why-us{
-        background-image: url(.);
-        background-size: cover !important;
-        background-position: center top !important;
+        background-image: url(./bruno-kelzer-LvySG1hvuzI-unsplash.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
   }
