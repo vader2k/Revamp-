@@ -86,7 +86,7 @@ span{
     background-size: cover;
 }
 .item{
-    background-color: rgba(255, 255, 255, 0.76);
+    background-color: white;
     margin: 20px;
     padding: 10px;
     text-align: center;
@@ -139,50 +139,6 @@ span{
     margin: 20px;
     cursor: pointer;
     margin-bottom: 40px;
-}
-#detials{
-    height: 40px;
-    max-width: 930px;
-    overflow: hidden;
-    outline: none;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.315);
-    padding-left: 10px;
-    border: 1px solid white;
-    margin: 30px;
-}
-#last-mail{
-    height: 50px;
-    width: 200px;
-    margin-top: 10px;
-    cursor: pointer;
-    outline: none;
-    color: black;
-    background-color: white;
-    font-size: 1rem;
-    font-weight: 400px;
-    margin-bottom: 40px;
-    outline: none;
-    border: 1px solid black;
-    cursor: pointer;
-    margin-left: 140px;
-    margin-bottom: 20px
-}
-#last-mail:hover{
-    color: white;
-    background-color: black;
-    border: 1px solid white;
-}
-.contact{
-    display: grid;
-    place-items: center;
-}
-textarea{
-    outline: none;
-    margin-left: 5px;
-    padding-left: 5px;
-    color: white;
-    background-color: black;
 }
 .choose{
     padding: 40px;
@@ -248,5 +204,14 @@ textarea{
       text-align: center;
       margin: 0 !important;
       padding: 0 !important;
+    }
+    .banner{
+        background-image: url(./freestocks-_3Q3tsJ01nc-unsplash.jpg);
+    }
+    .why-us{
+        background-image: url(./bruno-kelzer-LvySG1hvuzI-unsplash.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
   }
