@@ -17,7 +17,6 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 100dvh;
 }
 .banner-heading{
     margin-top: 250px;
@@ -191,6 +190,9 @@ span{
         font-weight: 350;
         font-size:35px ;
     }
+    .banner-btn{
+        margin-bottom: 200px;
+    }
     .push{
         padding: 5px 0px;
         font-size: 15px;
@@ -212,8 +214,7 @@ span{
     }
     .why-us{
         background-image: url(./bruno-kelzer-LvySG1hvuzI-unsplash.jpg);
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover !important;
+        background-position: center top !important;
     }
   }
