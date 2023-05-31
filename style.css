@@ -145,7 +145,31 @@ span{
 .choose{
     padding: 40px;
 }
+.top-holder{
 
+}
+
+.bg-set{
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+  }
+  
+  .bg-set img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+  }
+  
 
   @media only screen and (max-width:768px){
     #options{
@@ -213,8 +237,7 @@ span{
 
     .why-us{
         background-image: url(./bruno-kelzer-LvySG1hvuzI-unsplash.jpg);
-        background-size: cover;
-        background-position: center;
+        background-size: 100% 100vh;
     }
-
+  
   }
