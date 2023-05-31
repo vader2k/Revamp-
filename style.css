@@ -51,11 +51,23 @@ body{
     background-color: lightgrey;
     line-height: 30px;
 }
-.jave{
+.first{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.second{
+    color: rgba(255, 217, 0, 0.726);
+    padding-top: 30px;
+    word-spacing: 10px;
+    font-size: 2rem;
+}
+.first{
     opacity: 0;
     animation: fade-in 2s ease-in-out forwards;
 }
-.push{
+.second{
     opacity: 0;
     animation: fade-in 5s ease-in-out forwards;
 }
@@ -126,7 +138,7 @@ span{
     padding: 40px;
 }
 #say{
-    color: #9900005d;
+    color: #990000;
 }
 .contact{
     background-color: black;
@@ -211,21 +223,6 @@ span{
     .jumbotron{
         padding: 80px 10px !important;
     }
-    .jave{
-        font-style: italic;
-        padding: 5px 2px;
-        letter-spacing: 5px;
-        font-weight: 350;
-        font-size:35px ;
-    }
-    .banner-btn{
-        margin-bottom: 200px;
-    }
-    .push{
-        padding: 5px 0px;
-        font-size: 15px;
-        word-spacing: 20px;
-    }
     .dividers{
         text-align: center;
     }
@@ -239,6 +236,17 @@ span{
         background-image: url(./bruno-kelzer-LvySG1hvuzI-unsplash.jpg);
         background-attachment: initial;
         background-position: center;
+    }
+    .first{
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;
+    }
+    .second{
+        color: rgba(255, 217, 0, 0.726);
+        padding-top: 10px;
+        word-spacing: 10px;
     }
   
   }
