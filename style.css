@@ -146,27 +146,10 @@ span{
 #say{
     color: #990000;
 }
-.contact{
-    background-color: black;
-    color: white;
-}
-#last-logo{
-    height: 50px;
-    margin-top: 60px;
-}
-#social-img{
-    height: 30px;
-    margin: 20px;
-    cursor: pointer;
-    margin-bottom: 40px;
-}
+
 .choose{
     padding: 40px;
 }
-.top-holder{
-
-}
-
 .bg-set{
     position: relative;
     display: inline-block;
@@ -187,8 +170,34 @@ span{
     text-align: center;
     z-index: 1;
   }
-  
+.contact-wraper{
+    background-color: white;
+    padding: 30px 0px;
+    border: 1px solid black;
+}
+.contact-wraper div{
+    padding: 10px 0px;
+}
 
+input{
+    width: 300px;
+    outline: none;
+    padding: 0px 10px;
+}
+button{
+    width: 100px;
+    color: white;
+    background-color: black;
+    outline: none;
+}
+.media-holder img{
+    height: 30px;
+    margin: 30px 50px;
+    cursor: pointer;
+}
+.media-holder img:hover{
+ border-bottom: 3px solid #990000;
+}
   @media only screen and (max-width:768px){
     #options{
         display: grid;
