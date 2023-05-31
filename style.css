@@ -173,7 +173,7 @@ span{
 .contact-wraper{
     background-color: white;
     padding: 30px 0px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.404);
 }
 .contact-wraper div{
     padding: 10px 0px;
@@ -190,6 +190,11 @@ button{
     background-color: black;
     outline: none;
 }
+button :hover{
+   color: black;
+   background-color: white;
+   border: 1px solid black;
+}
 .media-holder img{
     height: 30px;
     margin: 30px 50px;
@@ -197,6 +202,9 @@ button{
 }
 .media-holder img:hover{
  border-bottom: 3px solid #990000;
+}
+.review{
+    padding: 10px 30px;
 }
   @media only screen and (max-width:768px){
     #options{
@@ -264,5 +272,19 @@ button{
         padding-top: 10px;
         font-size: .8rem;
     }
-  
+    .contact-wraper{
+        padding: 0px 40px;
+    }
+    button{
+        width: 100px;
+        color: white;
+        background-color: black;
+        outline: none;
+        margin-top: 30px;
+    }
+    .media-holder img{
+        height: 30px;
+        margin: 10px;
+        cursor: pointer;
+    }
   }
