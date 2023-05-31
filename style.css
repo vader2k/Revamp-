@@ -15,10 +15,6 @@ html{
 .navbar-nav .nav-link {
     margin-right: 15px;
 }
-.navbar-toggler{
-    outline: none;
-    border: none;
-}
 
 .shift img{
     width: 100% !important;
@@ -181,7 +177,15 @@ span{
     border: 1px solid rgba(0, 0, 0, 0.404);
 }
 .contact-wraper div{
-    padding: 10px 0px;
+    padding: 20px 0px;
+}
+.reach{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px 0px;
+}
+#mail{
+    padding: 40px 0px 0px 20px;
 }
 
 input{
@@ -189,13 +193,13 @@ input{
     outline: none;
     padding: 0px 10px;
 }
-button{
+.btn-send{
     width: 100px;
     color: white;
     background-color: black;
     outline: none;
 }
-button:hover{
+.btn-send:hover{
    color: black;
    background-color: white;
    border: 1px solid black;
@@ -211,6 +215,10 @@ button:hover{
 .review{
     padding: 10px 30px;
 }
+
+
+
+
   @media only screen and (max-width:768px){
     #options{
         display: grid;
@@ -275,14 +283,14 @@ button:hover{
         font-style: oblique;
     }
     .second{
-        color: rgba(255, 217, 0, 0.726);
+        color: lightgray;
         padding-top: 10px;
-        font-size: .8rem;
+        font-size: .9rem;
     }
     .contact-wraper{
         padding: 0px 40px;
     }
-    button{
+    .btn-send{
         width: 100px;
         color: white;
         background-color: black;
