@@ -348,5 +348,7 @@ input{
     .aim{
         font-size: 0.8rem;
     }
-    
+    .reduce{
+        font-size: .9rem;
+    }
   }
