@@ -15,6 +15,9 @@ html{
 .navbar-nav .nav-link {
     margin-right: 15px;
 }
+.kai{
+    padding: 0px 20px;
+}
 
 .shift img{
     width: 100% !important;
