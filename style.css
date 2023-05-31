@@ -15,6 +15,11 @@ html{
 .navbar-nav .nav-link {
     margin-right: 15px;
 }
+.navbar-toggler{
+    outline: none;
+    border: none;
+}
+
 .shift img{
     width: 100% !important;
 }
@@ -249,10 +254,12 @@ button:hover{
     .dividers{
         text-align: center;
     }
-    #navbar-toggler{
+    .navbar-toggler{
       text-align: center;
       margin: 0 !important;
       padding: 0 !important;
+      text-align: center;
+      outline: none;
     }
 
     .why-us{
