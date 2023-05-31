@@ -237,7 +237,8 @@ span{
 
     .why-us{
         background-image: url(./bruno-kelzer-LvySG1hvuzI-unsplash.jpg);
-        background-size: 100% 100vh;
+        background-attachment: initial;
+        background-position: center;
     }
   
   }
