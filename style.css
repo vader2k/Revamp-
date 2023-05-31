@@ -25,6 +25,10 @@ html{
 .jumbotron{
     padding: 80px 40px !important;
 }
+.final{
+    text-align: justify;
+    padding: 0px 25px;
+}
 .confidence{
     background-color: white;
 }
@@ -52,6 +56,7 @@ header{
 body{
     background-color: lightgrey;
     line-height: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .first{
     font-size: 3rem;
@@ -106,7 +111,7 @@ span{
     margin: 20px;
     padding: 10px;
     text-align: center;
-    height: max-content;
+    height: 900px;
 }
 
 #star{
@@ -219,8 +224,16 @@ input{
     padding: 10px 30px;
 }
 
-
-
+.quote{
+    height: 40px;
+    margin: 20px 0px;
+}
+.new{
+    height: 900px;
+}
+.aim{
+    padding: 0px 20px;
+}
 
   @media only screen and (max-width:768px){
     #options{
@@ -305,4 +318,32 @@ input{
         margin: 10px;
         cursor: pointer;
     }
+    .final{
+        text-align: justify;
+        padding: 0px 25px;
+        font-size: 0.8rem;
+    }
+    .carousel-content p{
+        font-size: 0.8rem;
+    }
+    .carousel-content h3{
+        font-size: 1rem;
+    }
+    body h2{
+        font-size: 1.7rem;
+    }
+    body h3{
+        font-size: 1.4rem;
+    }
+    .item{
+        background-color: white;
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        height: 600px;
+    }
+    .aim{
+        font-size: 0.8rem;
+    }
+    
   }
