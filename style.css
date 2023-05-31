@@ -92,7 +92,7 @@ body{
     }
 }
 .dividers{
-    padding-top: 100px !important;
+    padding-top: 10px !important;
 }
 #icons{
     padding: 40px 0px;
@@ -232,10 +232,13 @@ input{
     margin: 20px 0px;
 }
 .new{
-    height: 900px;
+    height: 500px;
 }
 .aim{
     padding: 0px 20px;
+}
+.service{
+    padding: 30px 0px;
 }
 
   @media only screen and (max-width:768px){
@@ -324,7 +327,7 @@ input{
     .final{
         text-align: justify;
         padding: 0px 25px;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .carousel-content p{
         font-size: 0.8rem;
@@ -346,9 +349,9 @@ input{
         height: 600px;
     }
     .aim{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .reduce{
-        font-size: .9rem;
+        font-size: 1rem;
     }
   }
