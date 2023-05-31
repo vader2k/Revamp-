@@ -145,9 +145,12 @@ span{
     padding: 40px;
 }
 #say{
-    color: #990000;
+    color: rgba(255, 217, 0, 0.623);
 }
-
+#caro{
+    background-color: black;
+    color: white;
+}
 .choose{
     padding: 40px;
 }
