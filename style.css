@@ -168,12 +168,6 @@ span{
     z-index: 0;
   }
   
-  .bg-set img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  
 .text-overlay {
     position: absolute;
     top: 50%;
@@ -240,6 +234,10 @@ input{
 .service{
     padding: 50px 0px;
 }
+
+
+
+
 
   @media only screen and (max-width:768px){
     #options{
@@ -353,5 +351,8 @@ input{
     }
     .reduce{
         font-size: 1rem;
+    }
+    .bg-set img {
+        height: 600px;
     }
   }
