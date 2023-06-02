@@ -332,5 +332,9 @@ input{
     .reduce{
         font-size: 1rem;
     }
+    #navimg{
+        object-fit: cover;
+        height: 600px;
+    }
 
   }
